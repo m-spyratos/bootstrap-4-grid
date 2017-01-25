@@ -60,7 +60,7 @@ The grid options are located inside the `scss/grid.scss` file. If you are going 
 your project, changing those will suffice. If you are going to be using the CSS files, then you will need to
 change the options and then compile. For more details, see the customization instructions bellow.
 
-__NOTE:__ If you are using the sass files and you want to avoid your settings being overridden by an update,
+__NOTE:__ If you are using the sass files and you want to avoid your options getting overridden by an update,
 then copy and paste the options to your own sass file and include them before the `grid` file.
 
 ## Customization
@@ -91,9 +91,9 @@ Then, run:
 grunt browser
 ````
 
-### Change Grid Settings
+### Change Grid Options
 
-Open `scss/grid.scss` and change the [default settings](https://v4-alpha.getbootstrap.com/layout/grid/#customizing-the-grid).
+Open `scss/grid.scss` and change the [default options](https://v4-alpha.getbootstrap.com/layout/grid/#customizing-the-grid).
 Then, run:
 
 ````
