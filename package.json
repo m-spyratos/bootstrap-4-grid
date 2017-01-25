@@ -6,7 +6,7 @@
     "main": "css/grid.min.css",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/m-spyratos/bootstrap-4-grid.git"
+        "url": "https://github.com/m-spyratos/bootstrap-4-grid.git"
     },
     "keywords": [
         "bootstrap",

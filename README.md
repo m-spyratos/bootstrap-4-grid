@@ -26,12 +26,22 @@ If you don't need any of the above, Bootstrap 4 already includes a grid only ver
 Sass and CSS files are ready to be used in your project.
 
 ### CSS
+
 Pretty straightforward.
 Just get `css/bootstrap-grid.min.css` or `css/bootstrap-grid.css` and add it to your project.
 
 ### Sass
+
 You will need to include the whole `scss` folder contents to your project.
 Then, just import `grid.scss` into your project's sass file.
+
+### Bower
+
+Install via bower:
+
+````
+bower install bootstrap-4-grid --save
+````
 
 ## Browser Support
 
