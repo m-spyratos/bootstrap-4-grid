@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-4-grid",
+  "description": "Bootstrap 4 grid system and responsive utilities",
+  "main": [
+    "css/grid.css",
+    "scss/grid.scss"
+  ],
+  "authors": [
+    "Michael Spyratos"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "grid",
+    "flex"
+  ],
+  "homepage": "https://github.com/m-spyratos/bootstrap-4-grid",
+  "ignore": [
+    "node_modules"
+  ]
+}
