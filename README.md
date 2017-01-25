@@ -54,11 +54,14 @@ you will need to use your own post css tool to add prefixes for different browse
 [Angular CLI](https://github.com/angular/angular-cli) though, then `autoprefixer` is included by default
 and you don't need to worry.
 
-## Grid Settings
+## Grid Options
 
-The grid settings are located inside the `scss/grid.scss` file. If you are going to be using the sass files in
-your project, changing those will suffice. If you are going to be using the CSS file, then you will need to
-change the settings and then compile the CSS files. For more details, see the customization instructions bellow.
+The grid options are located inside the `scss/grid.scss` file. If you are going to be using the sass files in
+your project, changing those will suffice. If you are going to be using the CSS files, then you will need to
+change the options and then compile. For more details, see the customization instructions bellow.
+
+__NOTE:__ If you are using the sass files and you want to avoid your settings being overridden by an update,
+then copy and paste the options to your own sass file and include them before the `grid` file.
 
 ## Customization
 

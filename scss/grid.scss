@@ -1,3 +1,10 @@
+//
+// Grid Options
+//
+// To avoid your options getting overridden by an update,
+// copy and paste the below options to your own sass file
+// and include it before this file.
+
 // Grid breakpoints
 //
 // Define the minimum dimensions at which your layout will change,
@@ -9,7 +16,7 @@ $grid-breakpoints: (
         md: 768px,
         lg: 992px,
         xl: 1200px
-);
+) !default;
 
 
 // Grid containers
@@ -21,25 +28,27 @@ $container-max-widths: (
         md: 720px,
         lg: 960px,
         xl: 1140px
-);
+) !default;
 
 
 // Grid columns
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-columns:               12;
-$grid-gutter-width-base:     30px;
+$grid-columns:               12 !default;
+$grid-gutter-width-base:     30px !default;
 $grid-gutter-widths: (
         xs: $grid-gutter-width-base,
         sm: $grid-gutter-width-base,
         md: $grid-gutter-width-base,
         lg: $grid-gutter-width-base,
         xl: $grid-gutter-width-base
-);
+) !default;
+
+// END of Grid Options
 
 
-// Imports
+// Bootstrap file imports
 @import "breakpoints/mixins/breakpoints";
 @import "align/utilities/align";
 @import "flex/utilities/flex";
