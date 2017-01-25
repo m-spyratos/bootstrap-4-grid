@@ -1,10 +1,10 @@
 # Bootstrap 4 Grid System (Flex)
-Bootstrap 4 layout grid system and responsive utilities.
+Bootstrap 4 grid system and responsive utilities.
 
 ## Version
 Currently v4.0.0-alpha.6
 
-## What's Included / Docs
+## What's Included
 
 * [Grid System](https://v4-alpha.getbootstrap.com/layout/grid/#content)
 * [Responsive Utilities](https://v4-alpha.getbootstrap.com/layout/responsive-utilities/#content)
@@ -48,7 +48,7 @@ and you don't need to worry.
 
 The grid settings are located inside the `scss/grid.scss` file. If you are going to be using the sass files in
 your project, changing those will suffice. If you are going to be using the CSS file, then you will need to
-change the settings and then build the CSS file. For more details, see the customization instructions bellow.
+change the settings and then compile the CSS files. For more details, see the customization instructions bellow.
 
 ## Customization
 
