@@ -28,7 +28,7 @@ Sass and CSS files are ready to be used in your project.
 ### CSS
 
 Pretty straightforward.
-Just get `css/bootstrap-grid.min.css` or `css/bootstrap-grid.css` and add it to your project.
+Just get `css/grid.min.css` or `css/grid.css` and add it to your project.
 
 ### Sass
 
