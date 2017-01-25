@@ -1,8 +1,15 @@
 module.exports = function (grunt) {
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
+
+        /**
+         * Bootstrap path in node modules.
+         */
         boostrap_sass_path: 'node_modules/bootstrap/scss',
 
+        /**
+         * Copy the necessary files from bootstrap node module,
+         * to the scss folder.
+         */
         copy: {
 
             breakpoints: {
@@ -92,6 +99,9 @@ module.exports = function (grunt) {
             }
         },
 
+        /**
+         * Compile the sass files to css.
+         */
         sass: {
 
             dist: {
@@ -114,6 +124,9 @@ module.exports = function (grunt) {
             }
         },
 
+        /**
+         * Prefix css files with the autoprefixer plugin of postcss.
+         */
         postcss: {
             options: {
                 map: true,
@@ -143,5 +156,7 @@ module.exports = function (grunt) {
         'postcss'
     ]);
 
-    grunt.registerTask('default', ['build']);
+    grunt.registerTask('default', [
+        'build'
+    ]);
 };
