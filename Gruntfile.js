@@ -106,7 +106,8 @@ module.exports = function (grunt) {
 
             dist: {
                 options: {
-                    style: 'compressed'
+                    style: 'compressed',
+                    sourcemap: 'none'
                 },
                 files: {
                     'css/grid.min.css': 'scss/grid.scss'
@@ -129,7 +130,7 @@ module.exports = function (grunt) {
          */
         postcss: {
             options: {
-                map: true,
+                map: false,
                 processors: [
                     require('autoprefixer')
                 ]
