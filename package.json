@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "bootstrap-4-grid",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Bootstrap 4 grid system and responsive utilities",
     "main": "css/grid.min.css",
     "repository": {
