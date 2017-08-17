@@ -1,30 +1,30 @@
 {
-    "name": "bootstrap-4-grid",
-    "version": "1.0.3",
-    "description": "Bootstrap 4 grid system and responsive utilities",
-    "main": "css/grid.min.css",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/m-spyratos/bootstrap-4-grid.git"
-    },
-    "keywords": [
-        "bootstrap",
-        "scss",
-        "grid",
-        "flex"
-    ],
-    "author": "Michael Spyratos",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/m-spyratos/bootstrap-4-grid/issues"
-    },
-    "homepage": "https://github.com/m-spyratos/bootstrap-4-grid",
-    "devDependencies": {
-        "autoprefixer": "^6.7.0",
-        "bootstrap": "^4.0.0-alpha.6",
-        "grunt": "^1.0.1",
-        "grunt-contrib-copy": "^1.0.0",
-        "grunt-contrib-sass": "^1.0.0",
-        "grunt-postcss": "^0.8.0"
-    }
+  "name": "bootstrap-4-grid",
+  "version": "1.0.4",
+  "description": "Bootstrap 4 grid system and responsive utilities",
+  "main": "css/grid.min.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-spyratos/bootstrap-4-grid.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "scss",
+    "grid",
+    "flex"
+  ],
+  "author": "Michael Spyratos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m-spyratos/bootstrap-4-grid/issues"
+  },
+  "homepage": "https://github.com/m-spyratos/bootstrap-4-grid",
+  "devDependencies": {
+    "autoprefixer": "^6.7.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-postcss": "^0.8.0"
+  }
 }
