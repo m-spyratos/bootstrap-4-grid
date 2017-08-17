@@ -35,6 +35,14 @@ Just get `css/grid.min.css` or `css/grid.css` and add it to your project.
 You will need to include the whole `scss` folder contents to your project.
 Then, just import `grid.scss` into your project's sass file.
 
+### NPM
+
+Install via npm:
+
+````
+npm install bootstrap-4-grid --save
+````
+
 ### Bower
 
 Install via bower:
