@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-4-grid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bootstrap 4 grid system and responsive utilities",
   "main": "css/grid.min.css",
   "repository": {
