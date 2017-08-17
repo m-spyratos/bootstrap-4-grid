@@ -1,5 +1,4 @@
 {
-    "private": true,
     "name": "bootstrap-4-grid",
     "version": "1.0.3",
     "description": "Bootstrap 4 grid system and responsive utilities",
@@ -10,7 +9,7 @@
     },
     "keywords": [
         "bootstrap",
-        "sass",
+        "scss",
         "grid",
         "flex"
     ],
