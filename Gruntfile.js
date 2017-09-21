@@ -12,55 +12,37 @@ module.exports = function (grunt) {
          */
         copy: {
 
-            breakpoints: {
+            grid: {
                 files: [
                     {
                         expand: true,
                         cwd: '<%= boostrap_sass_path %>',
                         src: [
-                            'mixins/_breakpoints.scss'
+                            'bootstrap-grid.scss',
+                            'mixins/_breakpoints.scss',
+                            'mixins/_grid-framework.scss',
+                            'mixins/_grid.scss',
+                            '_variables.scss',
+                            '_functions.scss',
+                            '_grid.scss'
                         ],
-                        dest: 'scss/breakpoints/'
+                        dest: 'scss/grid/'
                     }
                 ]
             },
 
-            align: {
+            layout: {
                 files: [
                     {
                         expand: true,
                         cwd: '<%= boostrap_sass_path %>',
                         src: [
-                            'utilities/_align.scss'
-                        ],
-                        dest: 'scss/align/'
-                    }
-                ]
-            },
-
-            flex: {
-                files: [
-                    {
-                        expand: true,
-                        cwd: '<%= boostrap_sass_path %>',
-                        src: [
-                            'utilities/_flex.scss'
-                        ],
-                        dest: 'scss/flex/'
-                    }
-                ]
-            },
-
-            visibility: {
-                files: [
-                    {
-                        expand: true,
-                        cwd: '<%= boostrap_sass_path %>',
-                        src: [
+                            'utilities/_display.scss',
+                            'utilities/_spacing.scss',
                             'utilities/_visibility.scss',
                             'mixins/_visibility.scss'
                         ],
-                        dest: 'scss/visibility/'
+                        dest: 'scss/layout/'
                     }
                 ]
             },
@@ -78,22 +60,15 @@ module.exports = function (grunt) {
                 ]
             },
 
-            grid: {
+            breakpoints: {
                 files: [
                     {
                         expand: true,
                         cwd: '<%= boostrap_sass_path %>',
                         src: [
-                            'bootstrap-grid.scss',
-                            'mixins/_clearfix.scss',
-                            'mixins/_breakpoints.scss',
-                            'mixins/_grid-framework.scss',
-                            'mixins/_grid.scss',
-                            '_variables.scss',
-                            '_custom.scss',
-                            '_grid.scss'
+                            'mixins/_breakpoints.scss'
                         ],
-                        dest: 'scss/grid/'
+                        dest: 'scss/breakpoints/'
                     }
                 ]
             }

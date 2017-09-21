@@ -35,24 +35,17 @@ $container-max-widths: (
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-columns:               12 !default;
-$grid-gutter-width-base:     30px !default;
-$grid-gutter-widths: (
-        xs: $grid-gutter-width-base,
-        sm: $grid-gutter-width-base,
-        md: $grid-gutter-width-base,
-        lg: $grid-gutter-width-base,
-        xl: $grid-gutter-width-base
-) !default;
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
 
 // END of Grid Options
 
 
 // Bootstrap file imports
 @import "breakpoints/mixins/breakpoints";
-@import "align/utilities/align";
-@import "flex/utilities/flex";
 @import "grid/bootstrap-grid";
 @import "sizing/utilities/sizing";
-@import "visibility/mixins/visibility";
-@import "visibility/utilities/visibility";
+@import "layout/utilities/display";
+@import "layout/utilities/spacing";
+@import "layout/mixins/visibility";
+@import "layout/utilities/visibility";

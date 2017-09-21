@@ -1,26 +1,27 @@
 # Bootstrap 4 Grid System (Flex)
-Bootstrap 4 grid system and responsive utilities.
+Bootstrap 4 grid system and layout utilities.
 
 ## Version
-Currently v4.0.0-alpha.6
+
+Currently v4.0.0-beta
 
 ## What's Included
 
-* [Grid System](https://v4-alpha.getbootstrap.com/layout/grid/#content)
-* [Responsive Utilities](https://v4-alpha.getbootstrap.com/layout/responsive-utilities/#content)
+* [Grid](https://getbootstrap.com/docs/4.0/layout/grid/)
+* [Layout Utilities](https://getbootstrap.com/docs/4.0/layout/utilities-for-layout/)
 
 ## Why?
 
 Here's what you get that Bootstrap 4 currently doesn't provide out of the box:
 
-* [Variable Width Content](https://v4-alpha.getbootstrap.com/layout/grid/#variable-width-content)
-* [Multi-Row](https://v4-alpha.getbootstrap.com/layout/grid/#equal-width-multi-row)
-* [Alignment](https://v4-alpha.getbootstrap.com/layout/grid/#alignment)
-* [Reordering](https://v4-alpha.getbootstrap.com/layout/grid/#reordering)
-* [Responsive Utilities](https://v4-alpha.getbootstrap.com/layout/responsive-utilities/#content)
+* [Grid Equal-Width Multi-Row](https://getbootstrap.com/docs/4.0/layout/grid/#equal-width-multi-row)
+* [Sizing Utility](https://getbootstrap.com/docs/4.0/utilities/sizing/)
+* [Display Utility](https://getbootstrap.com/docs/4.0/utilities/display/)
+* [Spacing Utility](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+* [Visibility Utility](https://getbootstrap.com/docs/4.0/utilities/visibility/)
 
 If you don't need any of the above, Bootstrap 4 already includes a grid only version with its
-[Bootstrap CSS and JS](https://v4-alpha.getbootstrap.com/getting-started/download/#bootstrap-css-and-js) bundle.
+[Bootstrap CSS and JS](https://getbootstrap.com/docs/4.0/getting-started/download/#compiled-css-and-js) bundle.
 
 ## How to Use
 Sass and CSS files are ready to be used in your project.
@@ -101,7 +102,7 @@ grunt browser
 
 ### Change Grid Options
 
-Open `scss/grid.scss` and change the [default options](https://v4-alpha.getbootstrap.com/layout/grid/#customizing-the-grid).
+Open `scss/grid.scss` and change the [default options](https://getbootstrap.com/docs/4.0/layout/grid/#customizing-the-grid).
 Then, run:
 
 ````

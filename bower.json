@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-4-grid",
-  "description": "Bootstrap 4 grid system and responsive utilities",
+  "description": "Bootstrap 4 grid system and layout utilities",
   "main": [
     "css/grid.css",
     "scss/grid.scss"

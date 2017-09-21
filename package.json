@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-4-grid",
-  "version": "1.0.5",
-  "description": "Bootstrap 4 grid system and responsive utilities",
+  "version": "2.0.0",
+  "description": "Bootstrap 4 grid system and layout utilities",
   "main": "css/grid.min.css",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/m-spyratos/bootstrap-4-grid",
   "devDependencies": {
     "autoprefixer": "^6.7.0",
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-beta",
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
