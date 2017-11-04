@@ -39,18 +39,14 @@ Then, just import `grid.scss` into your project's sass file.
 
 ### NPM
 
-Install via npm:
-
 ````
-npm install bootstrap-4-grid --save
+npm install bootstrap-4-grid
 ````
 
-### Bower
-
-Install via bower:
+### Yarn
 
 ````
-bower install bootstrap-4-grid --save
+yarn add bootstrap-4-grid
 ````
 
 ## Browser Support
