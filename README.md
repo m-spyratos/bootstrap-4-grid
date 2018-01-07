@@ -56,7 +56,7 @@ By default, the last 2 versions for each major browser is supported. To change t
 instructions bellow.
 
 __NOTE:__ Sass files do not include any browser specific prefixes. If you include them in your project,
-you will need to use your own post css tool to add prefixes for different browsers. If you are using latest
+you will need to use your own post css tool to add prefixes for different browsers. If you are using
 [Angular CLI](https://github.com/angular/angular-cli) though, then `autoprefixer` is included by default
 and you don't need to worry.
 
