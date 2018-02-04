@@ -19,6 +19,7 @@ module.exports = function (grunt) {
                         cwd: '<%= boostrap_sass_path %>',
                         src: [
                             'bootstrap-grid.scss',
+                            'utilities/_display.scss',
                             'mixins/_breakpoints.scss',
                             'mixins/_grid-framework.scss',
                             'mixins/_grid.scss',

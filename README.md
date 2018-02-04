@@ -4,7 +4,7 @@ Bootstrap 4 grid system and layout utilities.
 
 ## Version
 
-Currently v4.0.0-beta.3
+Currently v4.0.0
 
 ## What's Included
 
