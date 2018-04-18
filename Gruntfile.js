@@ -20,6 +20,7 @@ module.exports = function (grunt) {
                         src: [
                             'bootstrap-grid.scss',
                             'utilities/_display.scss',
+                            'utilities/_flex.scss',
                             'mixins/_breakpoints.scss',
                             'mixins/_grid-framework.scss',
                             'mixins/_grid.scss',
