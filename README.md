@@ -16,6 +16,7 @@ Here's what you get that Bootstrap 4 currently doesn't provide out of the box:
 * [Display Utility](https://getbootstrap.com/docs/4.1/utilities/display/)
 * [Spacing Utility](https://getbootstrap.com/docs/4.1/utilities/spacing/)
 * [Visibility Utility](https://getbootstrap.com/docs/4.1/utilities/visibility/)
+* [Position Utility](https://getbootstrap.com/docs/4.1/utilities/position/)
 
 If you don't need any of the above, Bootstrap 4 already includes a grid only version with its
 [Bootstrap CSS and JS](https://getbootstrap.com/docs/4.1/getting-started/download/#compiled-css-and-js) bundle.

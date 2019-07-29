@@ -42,6 +42,7 @@ module.exports = function (grunt) {
                         src: [
                             'utilities/_display.scss',
                             'utilities/_spacing.scss',
+                            'utilities/_position.scss',
                             'utilities/_visibility.scss',
                             'mixins/_visibility.scss'
                         ],
