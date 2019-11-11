@@ -64,6 +64,24 @@ module.exports = function (grunt) {
                 ]
             },
 
+            text: {
+                files: [
+                    {
+                        expand: true,
+                        cwd: '<%= boostrap_sass_path %>',
+                        src: [
+                            'mixins/_deprecate.scss',
+                            'mixins/_hover.scss',
+                            'mixins/_text-truncate.scss',
+                            'mixins/_text-emphasis.scss',
+                            'mixins/_text-hide.scss',
+                            'utilities/_text.scss'
+                        ],
+                        dest: 'scss/text/'
+                    }
+                ]
+            },
+
             breakpoints: {
                 files: [
                     {
