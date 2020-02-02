@@ -1,6 +1,6 @@
 # Bootstrap 4 Grid System (Flex)
 
-Bootstrap v4.3.1 grid system and layout utilities.
+Bootstrap v4.4.1 grid system and layout utilities.
 
 ## What's Included
 
