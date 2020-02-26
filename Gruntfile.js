@@ -93,6 +93,20 @@ module.exports = function (grunt) {
                         dest: 'scss/breakpoints/'
                     }
                 ]
+            },
+
+            screenreaders: {
+                files: [
+                    {
+                        expand: true,
+                        cwd: '<%= boostrap_sass_path %>',
+                        src: [
+                            'mixins/_screen-reader.scss',
+                            'utilities/_screenreaders.scss'
+                        ],
+                        dest: 'scss/screenreaders/'
+                    }
+                ]
             }
         },
 

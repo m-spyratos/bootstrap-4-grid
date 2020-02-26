@@ -47,6 +47,8 @@ $grid-gutter-width: 30px !default;
 @import "text/mixins/text-emphasis";
 @import "text/mixins/text-hide";
 @import "text/mixins/text-truncate";
+@import "screenreaders/mixins/screen-reader";
+@import "screenreaders/utilities/screenreaders";
 @import "breakpoints/mixins/breakpoints";
 @import "layout/mixins/visibility";
 @import "grid/bootstrap-grid";

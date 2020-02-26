@@ -4,23 +4,24 @@ Bootstrap v4.4.1 grid system and layout utilities.
 
 ## What's Included
 
-* [Grid](https://getbootstrap.com/docs/4.1/layout/grid/)
-* [Layout Utilities](https://getbootstrap.com/docs/4.1/layout/utilities-for-layout/)
+* [Grid](https://getbootstrap.com/docs/4.4/layout/grid/)
+* [Layout Utilities](https://getbootstrap.com/docs/4.4/layout/utilities-for-layout/)
 
 ## Why?
 
 Here's what you get that Bootstrap 4 currently doesn't provide out of the box:
 
-* [Grid Equal-Width Multi-Row](https://getbootstrap.com/docs/4.1/layout/grid/#equal-width-multi-row)
-* [Sizing Utility](https://getbootstrap.com/docs/4.1/utilities/sizing/)
-* [Display Utility](https://getbootstrap.com/docs/4.1/utilities/display/)
-* [Spacing Utility](https://getbootstrap.com/docs/4.1/utilities/spacing/)
-* [Visibility Utility](https://getbootstrap.com/docs/4.1/utilities/visibility/)
-* [Position Utility](https://getbootstrap.com/docs/4.1/utilities/position/)
-* [Text Utility](https://getbootstrap.com/docs/4.1/utilities/text/)
+* [Grid Equal-Width Multi-Row](https://getbootstrap.com/docs/4.4/layout/grid/#equal-width-multi-row)
+* [Sizing Utility](https://getbootstrap.com/docs/4.4/utilities/sizing/)
+* [Display Utility](https://getbootstrap.com/docs/4.4/utilities/display/)
+* [Spacing Utility](https://getbootstrap.com/docs/4.4/utilities/spacing/)
+* [Visibility Utility](https://getbootstrap.com/docs/4.4/utilities/visibility/)
+* [Position Utility](https://getbootstrap.com/docs/4.4/utilities/position/)
+* [Text Utility](https://getbootstrap.com/docs/4.4/utilities/text/)
+* [Screen Readers Utility](https://getbootstrap.com/docs/4.4/utilities/screen-readers/)
 
 If you don't need any of the above, Bootstrap 4 already includes a grid only version with its
-[Bootstrap CSS and JS](https://getbootstrap.com/docs/4.1/getting-started/download/#compiled-css-and-js) bundle.
+[Bootstrap CSS and JS](https://getbootstrap.com/docs/4.4/getting-started/download/#compiled-css-and-js) bundle.
 
 ## How to Use
 Sass and CSS files are ready to be used in your project.
@@ -97,7 +98,7 @@ grunt browser
 
 ### Change Grid Options
 
-Open `scss/grid.scss` and change the [default options](https://getbootstrap.com/docs/4.1/layout/grid/#customizing-the-grid).
+Open `scss/grid.scss` and change the [default options](https://getbootstrap.com/docs/4.4/layout/grid/#customizing-the-grid).
 Then, run:
 
 ````
